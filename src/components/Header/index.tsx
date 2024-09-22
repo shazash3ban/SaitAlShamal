@@ -9,7 +9,7 @@ const Header = () => {
           <div className="relative -mx-4 flex items-center justify-between">
             <div className="w-60 max-w-full px-4 xl:mr-12">
               <Link href="/" className="header-logo block w-full py-8">
-                <h1 className="font-bold lg:text-nowrap text-2xl">
+                <h1 className="font-bold lg:text-nowrap text-2xl mb-10">
                   Sait Al Shamal Contracting Company
                 </h1>
               </Link>
