@@ -1,0 +1,116 @@
+body {
+    background-color: #121212; /* Dark background for dark mode */
+    color: white; /* Default text color */
+}
+
+.label-form {
+    color: white; /* Label color in dark mode */
+}
+
+.input-form {
+    background-color: #1e1e1e; /* Dark input background */
+    border: 1px solid #555; /* Lighter border */
+    color: white; /* Input text color */
+}
+
+.input-form::placeholder {
+    color: #bbb; /* Placeholder color */
+}
+
+.error {
+    color: red;
+}
+
+.brand {
+    background-color: #ffffff; /* Background for brand selection */
+}
+
+.brand.selected {
+    border: 2px solid #4a90e2; /* Highlight selected brand */
+}
+
+/* Add any additional styles here */
+.brand-list {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+  }
+
+  /* Style each brand container */
+  .brand {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: border 0.3s;
+  }
+  /* Set a fixed width and height for the brand image */
+  .brand img {
+    width: 80px;
+    height: auto; /* Ensure the aspect ratio is maintained */
+    object-fit: contain;
+  }
+  .brand-break {
+    flex-basis: 100%; /* Forces the next item to the next line */
+    height: 0; /* No height */
+  }
+  /* Highlight selected brand with a blue border */
+  .brand.selected {
+    border: 2px solid blue;
+  }
+
+  /* Add hover effect to the brands */
+  .brand:hover {
+    border: 2px solid lightblue;
+  }
+
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-row{
+    display: flex;
+    gap: 20px;
+  }
+  .form-group{
+    display: flex; flex-direction: column; gap: 10px;
+  }
+  .required{
+    color: red
+  }
+ 
+  .input-form {
+    border: 1px solid grey; /* Grey border */
+    background-color: rgb(246, 247, 250); /* Light grey background */
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .input-form::placeholder {
+    color: rgb(147, 147, 147); /* Grey-colored prompt */
+  }
+
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+
+  /* Optional: Add hover or focus effects */
+  .input-form:focus {
+    border-color: #888888; /* Slightly darker grey on focus */
+    outline: none;
+  }
+  .brand{
+    height: fit-content;
+  }
+  .brand-p{
+    margin-bottom: 0px;
+  }
