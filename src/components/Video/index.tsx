@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
-import ModalVideo from "react-modal-video";
 import InquiryForm from "../Form";
 
 const Video = () => {
@@ -14,7 +13,7 @@ const Video = () => {
       <div className="container">
         <SectionTitle
           title="Reach Our Office"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Get in touch with us through the following contact details:"
           center
           mb="80px"
         />
@@ -55,14 +54,6 @@ const Video = () => {
         </div>
       </div>
 
-      <ModalVideo
-        channel="youtube"
-        autoplay={true}
-        start={true}
-        isOpen={isOpen}
-        videoId="L61p2uyiMSo"
-        onClose={() => setOpen(false)}
-      />
   
       <div className="absolute bottom-0 left-0 right-0 z-[-1] h-full w-full bg-[url(/images/video/shape.svg)] bg-cover bg-center bg-no-repeat"></div>
     </section>

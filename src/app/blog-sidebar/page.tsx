@@ -1,7 +1,4 @@
-import RelatedPost from "@/components/Blog/RelatedPost";
-import SharePost from "@/components/Blog/SharePost";
-import TagButton from "@/components/Blog/TagButton";
-import NewsLatterBox from "@/components/Contact/NewsLatterBox";
+
 import Image from "next/image";
 
 import { Metadata } from "next";
@@ -324,9 +321,7 @@ const BlogSidebarPage = () => {
                         Popular Tags :
                       </h4>
                       <div className="flex items-center">
-                        <TagButton text="Design" />
-                        <TagButton text="Development" />
-                        <TagButton text="Info" />
+                       
                       </div>
                     </div>
                     <div className="mb-5">
@@ -334,7 +329,6 @@ const BlogSidebarPage = () => {
                         Share this post :
                       </h5>
                       <div className="flex items-center sm:justify-end">
-                        <SharePost />
                       </div>
                     </div>
                   </div>
@@ -373,29 +367,12 @@ const BlogSidebarPage = () => {
                   Related Posts
                 </h3>
                 <ul className="p-8">
+                  
                   <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10">
-                    <RelatedPost
-                      title="Best way to boost your online sales."
-                      image="/images/blog/post-01.jpg"
-                      slug="#"
-                      date="12 Feb 2025"
-                    />
-                  </li>
-                  <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10">
-                    <RelatedPost
-                      title="50 Best web design tips & tricks that will help you."
-                      image="/images/blog/post-02.jpg"
-                      slug="#"
-                      date="15 Feb, 2024"
-                    />
+                  
                   </li>
                   <li>
-                    <RelatedPost
-                      title="The 8 best landing page builders, reviewed"
-                      image="/images/blog/post-03.jpg"
-                      slug="#"
-                      date="05 Jun, 2024"
-                    />
+                 
                   </li>
                 </ul>
               </div>
@@ -451,15 +428,10 @@ const BlogSidebarPage = () => {
                   Popular Tags
                 </h3>
                 <div className="flex flex-wrap px-8 py-6">
-                  <TagButton text="Themes" />
-                  <TagButton text="UI Kit" />
-                  <TagButton text="Tailwind" />
-                  <TagButton text="Startup" />
-                  <TagButton text="Business" />
+               
                 </div>
               </div>
 
-              <NewsLatterBox />
             </div>
           </div>
         </div>
