@@ -95,7 +95,7 @@ const InquiryForm: React.FC = () => {
           {/* Company Name (Optional) */}
           <div className="form-group">
             <label className="label-form" htmlFor="companyName">
-              Company Name (Optional)
+              Company Name 
             </label>
             <input type="text" id="companyName" name="companyName" className="input-form" placeholder="Company name here" />
           </div>
@@ -190,7 +190,7 @@ const InquiryForm: React.FC = () => {
           {/* Target Price (Optional) */}
           <div className="form-group">
             <label className="label-form" htmlFor="targetPrice">
-              Target Price (Optional)
+              Target Price 
             </label>
             <input type="number" id="targetPrice" name="targetPrice" placeholder="Number" className="input-form" />
           </div>
