@@ -62,7 +62,7 @@ const InquiryForm: React.FC = () => {
   
   return (
     <section style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' , marginBottom:"100px"}}>
-      <p style={{ color: 'white', marginBottom: '40px', marginTop: '100px' , fontWeight:"700", fontSize:"50px"}}>
+      <p style={{ color: 'white', marginBottom: '40px', marginTop: '100px' , fontWeight:"700", fontSize:"50px", paddingLeft:"5px"}}>
         Send an inquiry for an exclusive offer
       </p>
       <form id="inquiryForm" style={{ paddingBottom: '100px' }}>

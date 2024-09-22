@@ -20,7 +20,7 @@ const Video = () => {
 
         <div className="-mx-4 flex flex-wrap justify-center">
           <div className="w-full max-w-md px-4">
-            <div className="office-info bg-[#DDD] p-8 rounded-lg shadow-lg">
+          <div className="office-info bg-[#DDD] p-8 rounded-lg shadow-lg">
               <p className="mb-4 flex items-center text-lg font-semibold text-gray-800">
              
                 <strong>Email:</strong>
@@ -28,26 +28,27 @@ const Video = () => {
                   href="mailto:info@yourbrand.com"
                   className="ml-2 text-blue-600 hover:underline"
                 >
-                  info@yourbrand.com
+                  help@sait-alshamal.com
                 </a>
               </p>
 
-              <p className="mb-4 flex items-center text-lg font-semibold text-gray-800">
+              {/* <p className="mb-4 flex items-center text-lg font-semibold text-gray-800">
                 
                 <strong>Phone:</strong>
                 <span className="ml-2">+1 123 456 7890</span>
-              </p>
+              </p> */}
 
               <p className="mb-4 flex items-center text-lg font-semibold text-gray-800">
                
                 <strong>Address:</strong>
-                <span className="ml-2">123 Your Brand Street, Your City, Your Country</span>
+                <span className="ml-2"> 🇸🇦 
+                3291, Haritha bin Ashal, 6811</span>
               </p>
 
               <p className="flex items-center text-lg font-semibold text-gray-800">
                 
-                <strong>Postal Code:</strong>
-                <span className="ml-2">123456</span>
+                <strong>Zip Code:</strong>
+                <span className="ml-2"> 55425</span>
               </p>
             </div>
           </div>
